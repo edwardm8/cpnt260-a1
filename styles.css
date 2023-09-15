@@ -31,7 +31,11 @@ ul{
     padding-right: 4rem;
     position:relative;
 }
-
+img{
+    margin: auto;
+    padding: 1rem;
+    padding-left: 50px;
+}
 li{
     list-style-position: inside;
 
