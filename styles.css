@@ -26,15 +26,23 @@ p{
     font-size: 19px;
     font-family: 'Playfair Display', serif;
 }
+ul{
+    width:auto;
+    padding-right: 4rem;
+    position:relative;
+}
+
 li{
     list-style-position: inside;
 
-    padding-right: 4rem;
+    
+    font-size: 24px;
 
-    font-size: 19px;
+    width: auto;
 
     color: #FAFDF6;
     font-family: 'Playfair Display', serif;
+
 }
 .link{
     color:#fc7a00;
@@ -42,4 +50,15 @@ li{
 }
 a:hover{
     color:#fc0004;
+}
+.listTitle{
+    font-size:28px;
+}
+.list1{
+    text-align: center;
+}
+.sub li{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 4rem;
 }
