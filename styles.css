@@ -4,9 +4,16 @@ body{
     text-align: center;
 
     background-color: #2D2A32;
+
+    line-height: 1.5;
 }
 h1,h2{
     color:#EAE151;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 46px;
+}
+h2{
+    font-size: 35px;
 }
 p{
     max-width: 84ch;
@@ -15,7 +22,9 @@ p{
     margin-right: auto;
 
     color: #FAFDF6;
+
     font-size: 19px;
+    font-family: 'Playfair Display', serif;
 }
 li{
     list-style-position: inside;
@@ -25,8 +34,12 @@ li{
     font-size: 19px;
 
     color: #FAFDF6;
+    font-family: 'Playfair Display', serif;
 }
-a{
-    color: #FAFDF6;
-    font-size: 20px;
+.link{
+    color:#fc7a00;
+    text-decoration: none;
+}
+a:hover{
+    color:#fc0004;
 }
