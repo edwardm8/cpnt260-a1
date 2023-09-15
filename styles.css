@@ -1,3 +1,4 @@
+/*body styling*/
 body{
     padding: 1rem;
 
@@ -7,16 +8,22 @@ body{
 
     line-height: 1.5;
 }
+
+/*Header styles*/
 h1,h2{
     color:#EAE151;
-    font-family: 'PT Sans', sans-serif;
+
+    /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
+    font-family: 'PT Sans',Arial,sans-serif;
     font-size: 46px;
 }
 h2{
     font-size: 35px;
 }
+
+/*paragraph styling*/
 p{
-    max-width: 84ch;
+    max-width: 85h;
 
     margin-left: auto;
     margin-right: auto;
@@ -24,43 +31,63 @@ p{
     color: #FAFDF6;
 
     font-size: 19px;
-    font-family: 'Playfair Display', serif;
+    /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
+    font-family: 'Playfair Display',Arial,serif;
 }
+
+/*list styling*/
 ul{
     width:auto;
+
     padding-right: 4rem;
+
     position:relative;
 }
-img{
-    margin: auto;
-    padding: 1rem;
-    padding-left: 50px;
-}
+
 li{
     list-style-position: inside;
 
-    
     font-size: 24px;
 
     width: auto;
 
     color: #FAFDF6;
     font-family: 'Playfair Display', serif;
-
 }
+
+/*image styling*/
+img{
+    margin: auto;
+    padding: 1rem;
+    padding-left: 50px;
+    padding-top: 1rem;
+}
+
+/*icon font styling*/
+i{
+    margin-top: 4rem;
+}
+
+/*hyperlink styling*/
 .link{
     color:#fc7a00;
     text-decoration: none;
 }
+
 a:hover{
     color:#fc0004;
 }
+
 .listTitle{
     font-size:28px;
 }
+
 .list1{
     text-align: center;
 }
+
+/*Used to display nested list as horizontal line
+https://unused-css.com/blog/css-horizontal-lists/*/
 .sub li{
     display: inline-block;
     font-size: 20px;
