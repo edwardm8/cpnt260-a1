@@ -1,7 +1,7 @@
 /*body styling*/
 body{
     padding: 1rem;
-
+    margin:auto;
     text-align: center;
 
     background-color: #2D2A32;
@@ -57,7 +57,6 @@ li{
 
 /*image styling*/
 img{
-   
     padding: 1rem;
     padding-left: 50px;
     padding-top: 1rem;
