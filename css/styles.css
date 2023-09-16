@@ -7,6 +7,8 @@ body{
     background-color: #2D2A32;
 
     line-height: 1.5;
+
+    max-width: 85ch;
 }
 
 /*Header styles*/
@@ -23,8 +25,6 @@ h2{
 
 /*paragraph styling*/
 p{
-    max-width: 85h;
-
     margin-left: auto;
     margin-right: auto;
 
@@ -57,7 +57,7 @@ li{
 
 /*image styling*/
 img{
-    margin: auto;
+   
     padding: 1rem;
     padding-left: 50px;
     padding-top: 1rem;
