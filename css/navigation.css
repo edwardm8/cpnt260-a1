@@ -19,9 +19,11 @@ nav a{
 
 /* media query for desktop*/
 @media (width > 40rem) {
+  /*larger font on desktop*/
   body{
     font-size: 22px;
   }
+  /* horizontal navigation bar new color */
   nav ul{
     display:flex;
   
@@ -42,6 +44,7 @@ nav a{
   
     text-align: center;
   }
+  /*bullet points on the fun classes list appear on desktop*/
   .list1{
     list-style-type: disc;
   }
