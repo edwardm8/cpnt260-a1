@@ -4,9 +4,10 @@ body{
   margin:auto;
   background-color: #2D2A32;
 
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
+
 /*list styling*/
 ul{
   width:auto;
@@ -18,7 +19,7 @@ ul{
 
 li{
   list-style-position: inside;
-
+  
   font-size: 24px;
 
   width: auto;

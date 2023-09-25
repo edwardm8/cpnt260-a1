@@ -13,6 +13,10 @@ nav a{
   color:white;
 }
 
+.list1{
+  list-style-type: none;
+}
+
 /* media query for desktop*/
 @media (width > 40rem) {
   body{
@@ -37,5 +41,8 @@ nav a{
     color: black;
   
     text-align: center;
+  }
+  .list1{
+    list-style-type: disc;
   }
 }
