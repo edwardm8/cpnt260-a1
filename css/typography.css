@@ -1,0 +1,23 @@
+/*Header styles*/
+h1,h2{
+  color:#EAE151;
+
+  /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
+  font-family: 'PT Sans',Arial,sans-serif;
+  font-size: 46px;
+}
+h2{
+  font-size: 35px;
+}
+
+/*paragraph styling*/
+p{
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #FAFDF6;
+
+  font-size: 19px;
+  /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
+  font-family: 'Playfair Display',Arial,serif;
+}

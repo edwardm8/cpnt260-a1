@@ -1,0 +1,37 @@
+/*body styling*/
+body{
+  padding: 1rem;
+  margin:auto;
+  background-color: #2D2A32;
+
+  line-height: 1.5;
+}
+/*list styling*/
+ul{
+  width:auto;
+
+  padding-right: 4rem;
+
+  position:relative;
+}
+
+li{
+  list-style-position: inside;
+
+  font-size: 24px;
+
+  width: auto;
+
+  color: #FAFDF6;
+  font-family: 'Playfair Display', serif;
+}
+
+main{
+  max-width: 85ch;
+  margin: auto;
+}
+
+/*icon font styling*/
+i{
+  margin: auto;
+}
