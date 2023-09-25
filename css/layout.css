@@ -4,6 +4,7 @@ body{
   margin:auto;
   background-color: #2D2A32;
 
+  font-size: 20px;
   line-height: 1.5;
 }
 /*list styling*/
@@ -34,4 +35,19 @@ main{
 /*icon font styling*/
 i{
   margin: auto;
+}
+
+/*image styling*/
+img{
+  padding: 1rem;
+  padding-left: 50px;
+  padding-top: 1rem;
+}
+
+/*Used to display nested list as horizontal line
+https://unused-css.com/blog/css-horizontal-lists/*/
+.sub li{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 4rem;
 }

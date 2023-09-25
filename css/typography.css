@@ -16,8 +16,15 @@ p{
   margin-right: auto;
 
   color: #FAFDF6;
-
-  font-size: 19px;
   /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
   font-family: 'Playfair Display',Arial,serif;
+}
+
+.listTitle{
+  font-size:28px;
+  text-align: center;
+}
+
+.list1{
+  text-align: center;
 }

@@ -1,11 +1,3 @@
-/*image styling*/
-img{
-  padding: 1rem;
-  padding-left: 50px;
-  padding-top: 1rem;
-}
-
-
 /*hyperlink styling*/
 .link{
   color:#fc7a00;
@@ -16,19 +8,3 @@ a:hover{
   color:#fc0004;
 }
 
-.listTitle{
-  font-size:28px;
-  text-align: center;
-}
-
-.list1{
-  text-align: center;
-}
-
-/*Used to display nested list as horizontal line
-https://unused-css.com/blog/css-horizontal-lists/*/
-.sub li{
-  display: inline-block;
-  font-size: 20px;
-  padding-left: 4rem;
-}
