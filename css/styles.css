@@ -1,95 +1,96 @@
 /*body styling*/
 body{
-    padding: 1rem;
-    margin:auto;
-    
-    text-align: center;
+  padding: 1rem;
+  margin:auto;
+  background-color: #2D2A32;
 
-    background-color: #2D2A32;
+  line-height: 1.5;
+}
 
-    line-height: 1.5;
-
-    max-width: 85ch;
+main{
+  max-width: 85ch;
+  margin: auto;
 }
 
 /*Header styles*/
 h1,h2{
-    color:#EAE151;
+  color:#EAE151;
 
-    /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
-    font-family: 'PT Sans',Arial,sans-serif;
-    font-size: 46px;
+  /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
+  font-family: 'PT Sans',Arial,sans-serif;
+  font-size: 46px;
 }
 h2{
-    font-size: 35px;
+  font-size: 35px;
 }
 
 /*paragraph styling*/
 p{
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
-    color: #FAFDF6;
+  color: #FAFDF6;
 
-    font-size: 19px;
-    /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
-    font-family: 'Playfair Display',Arial,serif;
+  font-size: 19px;
+  /*font pairing from https://www.pagecloud.com/blog/best-google-fonts-pairings*/
+  font-family: 'Playfair Display',Arial,serif;
 }
 
 /*list styling*/
 ul{
-    width:auto;
+  width:auto;
 
-    padding-right: 4rem;
+  padding-right: 4rem;
 
-    position:relative;
+  position:relative;
 }
 
 li{
-    list-style-position: inside;
+  list-style-position: inside;
 
-    font-size: 24px;
+  font-size: 24px;
 
-    width: auto;
+  width: auto;
 
-    color: #FAFDF6;
-    font-family: 'Playfair Display', serif;
+  color: #FAFDF6;
+  font-family: 'Playfair Display', serif;
 }
 
 /*image styling*/
 img{
-    padding: 1rem;
-    padding-left: 50px;
-    padding-top: 1rem;
+  padding: 1rem;
+  padding-left: 50px;
+  padding-top: 1rem;
 }
 
 /*icon font styling*/
 i{
-    margin-top: 4rem;
+  margin: auto;
 }
 
 /*hyperlink styling*/
 .link{
-    color:#fc7a00;
-    text-decoration: none;
+  color:#fc7a00;
+  text-decoration: none;
 }
 
 a:hover{
-    color:#fc0004;
+  color:#fc0004;
 }
 
 .listTitle{
-    font-size:28px;
+  font-size:28px;
+  text-align: center;
 }
 
 .list1{
-    text-align: center;
+  text-align: center;
 }
 
 /*Used to display nested list as horizontal line
 https://unused-css.com/blog/css-horizontal-lists/*/
 .sub li{
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 4rem;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 4rem;
 }
